@@ -500,10 +500,10 @@ if __name__ == '__main__':
                 array['memory_total'] = 256 * 1024
                 array['memory_used'] = MemoryUsed * 1024
                 array['cpu'] = CPU
-                array['network_rx'] = UpSpeed
-                array['network_tx'] = DownSpeed
-                array['network_in'] = NetworkDown
-                array['network_out'] = NetworkUp
+                array['network_rx'] = DownSpeed
+                array['network_tx'] = UpSpeed
+                array['network_in'] = NetworkUp
+                array['network_out'] = NetworkDown
 
                 array['load_1'] = 0
                 array['load_5'] = 0
